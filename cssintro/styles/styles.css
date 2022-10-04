@@ -2,6 +2,14 @@
   border: 2px solid blue;
 } */
 
+body {
+  margin: 0;
+}
+
+/* body {
+  text-align: center;
+} */
+
 nav,
 footer {
   text-align: center;
@@ -10,19 +18,16 @@ footer {
   padding: 10px;
 }
 
-/* body {
-  text-align: center;
-} */
-
 nav {
   background-color: steelblue;
-  padding: 10px;
+  padding: 25px;
 }
 
 a {
   color: white;
   margin: 40px;
   font-size: 1.5em;
+  padding: 25px;
 }
 
 a:hover {
@@ -33,13 +38,14 @@ a:hover {
 h1 {
   color: steelblue;
   text-align: center;
+  margin: 50px 0;
 }
 
 img {
   width: 80%;
   display: block;
   margin: 0 auto;
-  /* border: 4px solid steelblue; */
+  border: 4px solid steelblue;
 }
 
 p {
@@ -50,6 +56,12 @@ p {
 footer {
   background-color: steelblue;
   color: white;
+}
+
+footer p {
+  font-size: 20px;
+  margin: 20px auto;
+  padding: 25px;
 }
 
 .main-para {
@@ -66,9 +78,4 @@ main p {
   width: 80%;
   margin: 50px auto;
   text-align: center;
-}
-
-footer p {
-  font-size: 20px;
-  margin: 20px auto;
 }
