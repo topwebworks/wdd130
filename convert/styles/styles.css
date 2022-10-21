@@ -416,7 +416,7 @@ h3 {
 }
 
 .hero-block-container {
-  background-image: url('/images/bkg-img-medium.jpg');
+  /* background-image: url('/images/bkg-img-medium.jpg'); */
   background-position: center center;
   background-size: cover;
   display: flex;
@@ -594,7 +594,7 @@ form input.invalid[type='tel']::placeholder {
 /* ------- CENTERED BLOCK ------- */
 
 .centered-block-container {
-  background-image: url('');
+  /* background-image: url(''); */
   background-position: center center;
   background-size: cover;
   display: flex;
@@ -631,7 +631,7 @@ form input.invalid[type='tel']::placeholder {
 /* ------- BENEFITS BLOCK ------- */
 
 .benefits-block-container {
-  background-image: url('');
+  /* background-image: url(''); */
   background-position: center center;
   background-size: cover;
   display: flex;
@@ -695,7 +695,7 @@ form input.invalid[type='tel']::placeholder {
 }
 
 .benefits-block-image-1 {
-  background-image: url('/images/bkg-img-medium.jpg');
+  /* background-image: url('/images/bkg-img-medium.jpg'); */
   background-position: center center;
   background-size: cover;
 }
@@ -707,7 +707,7 @@ form input.invalid[type='tel']::placeholder {
 }
 
 .infoleft-block-container {
-  background-image: url('');
+  /* background-image: url(''); */
   background-position: center center;
   background-size: cover;
   display: flex;
@@ -762,13 +762,13 @@ form input.invalid[type='tel']::placeholder {
 }
 
 .infoleft-block-image-1 {
-  background-image: url('/images/brettcandid.jpg');
+  background-image: url('https://topwebworks.github.io/wdd130/convert/images/brettcandid.jpg');
   background-position: center center;
   background-size: cover;
 }
 
 .infoleft-block-image-2 {
-  background-image: url('/images/pexels-mikael-blomkvist-6476584.jpg');
+  background-image: url('https://topwebworks.github.io/wdd130/convert/images/pexels-mikael-blomkvist-6476584.jpg');
   background-position: center center;
   background-size: cover;
 }
@@ -787,7 +787,7 @@ form input.invalid[type='tel']::placeholder {
 }
 
 .inforight-block-container {
-  background-image: url('');
+  /* background-image: url(''); */
   background-position: center center;
   background-size: cover;
   display: flex;
@@ -842,19 +842,19 @@ form input.invalid[type='tel']::placeholder {
 }
 
 .inforight-block-image-1 {
-  background-image: url('/images/pexels-liza-summer-6347709.jpg');
+  background-image: url('https://topwebworks.github.io/wdd130/convert/images/pexels-liza-summer-6347709.jpg');
   background-position: center center;
   background-size: cover;
 }
 
 .inforight-block-image-2 {
-  background-image: url('/images/pexels-dani-hart-3719037.jpg');
+  background-image: url('https://topwebworks.github.io/wdd130/convert/images/pexels-dani-hart-3719037.jpg');
   background-position: center center;
   background-size: cover;
 }
 
 .inforight-block-image-3 {
-  background-image: url('/images/pexels-andrea-piacquadio-3762940.jpg');
+  background-image: url('https://topwebworks.github.io/wdd130/convert/images/pexels-andrea-piacquadio-3762940.jpg');
   background-position: center center;
   background-size: cover;
 }
@@ -869,7 +869,7 @@ form input.invalid[type='tel']::placeholder {
 /* ------- CTA BLOCK ------- */
 
 .cta-block-container {
-  background-image: url('');
+  /* background-image: url(''); */
   background-position: center center;
   background-size: cover;
   display: flex;
@@ -906,7 +906,7 @@ form input.invalid[type='tel']::placeholder {
 /* ------- INFOBAR BLOCK ------- */
 
 .infobar-block-container {
-  background-image: url('');
+  /* background-image: url(''); */
   background-position: center center;
   background-size: cover;
   display: flex;
@@ -1261,7 +1261,7 @@ form input.invalid[type='tel']::placeholder {
   }
 
   .hero-block-container {
-    background-image: url('/images/home-hero-mobile.jpg');
+    background-image: url('https://topwebworks.github.io/wdd130/convert/images/home-hero-mobile.jpg');
   }
 
   .hero-subtitle {
