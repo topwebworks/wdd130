@@ -773,6 +773,12 @@ form input.invalid[type='tel']::placeholder {
   background-size: cover;
 }
 
+.infoleft-block-image-3 {
+  background-image: url('https://topwebworks.github.io/wdd130/convert/images/brett-1080.jpg');
+  background-position: center center;
+  background-size: cover;
+}
+
 .inset-image {
   display: flex;
   width: 100%;
