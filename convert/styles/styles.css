@@ -1236,6 +1236,10 @@ form input.invalid[type='tel']::placeholder {
   margin: -50px auto 15px;
 }
 
+.inset-image {
+  height: 600px;
+}
+
 .pb-0 {
   padding-bottom: 0;
 }
