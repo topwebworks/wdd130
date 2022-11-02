@@ -328,7 +328,7 @@ footer .social img {
 .tours-main section {
   text-align: left;
   max-width: 1100px;
-  margin: 40px auto;
+  margin: 50px auto;
 }
 
 .tours-main {
@@ -371,7 +371,7 @@ nav a.active:hover {
 }
 .tours-image-container {
   width: 50%;
-  height: 450px;
+  height: 400px;
   border-radius: 5px;
   padding: 20px 3%;
 }
