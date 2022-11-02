@@ -377,14 +377,14 @@ nav a.active:hover {
 }
 
 .tours-bkg-1-img {
-  background-image: url('images/rafting8_600.jpg');
+  background-image: url('../images/rafting8_600.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
 }
 
 .tours-bkg-2-img {
-  background-image: url('images/rafting29_600.jpg');
+  background-image: url('../images/rafting29_600.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
