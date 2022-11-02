@@ -323,9 +323,126 @@ footer .social img {
   padding-top: 15px;
 }
 
+/* Tours Page Override Syles */
+
+.tours-main section {
+  text-align: left;
+  max-width: 1100px;
+  margin: 40px auto;
+}
+
+.tours-main {
+  padding: 0 4%;
+}
+
+nav a.active {
+  background-color: var(--primary-color);
+  color: #ffffff;
+}
+
+nav a.active:hover {
+  opacity: 0.7;
+}
+
+#tours-hero-msg {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  margin-top: 150px;
+}
+
+#tours-hero-msg h1 {
+  text-align: center;
+  color: var(--accent2-color);
+}
+
+.tours-info-content-container > p {
+  font-size: 1rem;
+}
+
+.tours-info-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.tours-info-content-container {
+  width: 50%;
+  padding: 20px 3%;
+}
+.tours-image-container {
+  width: 50%;
+  height: 450px;
+  border-radius: 5px;
+  padding: 20px 3%;
+}
+
+.tours-bkg-1-img {
+  background-image: url('/images/rafting8_600.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.tours-bkg-2-img {
+  background-image: url('/images/rafting29_600.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.tours-center-info > p {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.tours-center-info > h1,
+.tours-center-info > p {
+  text-align: center;
+}
+
+.testimonial {
+  font-size: 0.75rem;
+  font-style: italic;
+}
+
+.testimonial > span {
+  white-space: nowrap;
+  font-weight: bold;
+}
+
+.tours-main .button-box {
+  text-align: left;
+  margin: 30px 0;
+}
+
+footer {
+  margin-top: 140px;
+}
+
 @media screen and (max-width: 900px) {
   header {
     background-color: var(--secondary-color);
+  }
+
+  .tours-main .button-box {
+    text-align: center;
+  }
+
+  .flex-col {
+    flex-direction: column;
+  }
+
+  .flex-col-rev {
+    flex-direction: column-reverse;
+  }
+
+  .tours-image-container,
+  .tours-info-content-container {
+    width: 100%;
+  }
+
+  .tours-main section {
+    text-align: center;
   }
 
   #hero,
@@ -344,10 +461,12 @@ footer .social img {
   #hero {
     margin-top: 0;
   }
-  #hero-msg {
+  #hero-msg,
+  #tours-hero-msg {
     margin-top: 0;
   }
-  #hero-msg h4 {
+  #hero-msg h4,
+  #tours-hero-msg h1 {
     display: none;
   }
   .home-title {
