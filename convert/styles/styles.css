@@ -290,7 +290,7 @@ h3 {
 
 .button-text {
   font-weight: 600;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   line-height: 24px;
   text-align: center;
   text-transform: uppercase;
@@ -461,7 +461,7 @@ h3 {
 
 .hero-block-nav-link,
 .hero-block-logo-container {
-  margin: 10px 4%;
+  margin: 5px 4%;
   font-weight: bold;
 }
 
@@ -1055,6 +1055,23 @@ form input.invalid[type='tel']::placeholder {
   opacity: 1;
 }
 
+.footer-links-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+}
+
+.footer-link-set {
+  margin: 0 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.footer-link-set > a {
+  margin: 0 5%;
+}
+
 /* ------- RESPONSIVE ------- */
 
 @media screen and (max-width: 768px) {
@@ -1124,6 +1141,10 @@ form input.invalid[type='tel']::placeholder {
     flex-direction: column;
     width: 100%;
   }
+
+  .footer-links-container {
+    justify-content: center;
+  }
 }
 
 @media screen and (max-width: 480px) {
@@ -1151,7 +1172,7 @@ form input.invalid[type='tel']::placeholder {
 
   .hero-block-nav-link,
   .hero-block-logo-container {
-    margin: 10px;
+    margin: 5px;
   }
 
   .eyebrow {
